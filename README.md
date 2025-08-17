@@ -2,7 +2,7 @@
 
 > Fotografia profissional que captura emoções e momentos únicos
 
-![Pacific Movement](./public/fotos/Captura%20de%20Tela%202025-08-17%20às%2015.14.26.png)
+![Pacific Movement](./public/fotos/para-o-readme.png)
 
 ## ✨ Sobre o Projeto
 
