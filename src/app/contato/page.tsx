@@ -188,7 +188,7 @@ export default function Contato() {
             className="relative w-full h-[400px] md:h-[500px] rounded-xl overflow-hidden shadow-2xl"
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.3556961836763!2d-38.5854!3d-3.7327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74991204f2b15%3A0x38e3b25bd5d38768!2sAv.%20C%2C%20236A%20-%20Conj.%20Cear%C3%A1%2C%20Fortaleza%20-%20CE%2C%2060533-500!5e0!3m2!1spt-BR!2sbr!4v1702920438709!5m2!1spt-BR!2sbr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.0234!2d-38.58540068562437!3d-3.7327388963815425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74bd1c8d24b1d%3A0x9e8f5c4a2b1d3e8f!2sAv.%20C%2C%20236A%20-%20Conj.%20Cear%C3%A1%2C%20Fortaleza%20-%20CE%2C%2060533-500!5e0!3m2!1spt-BR!2sbr!4v1692920438709!5m2!1spt-BR!2sbr"
               width="100%"
               height="100%"
               style={{ border: 0 }}
