@@ -1,210 +1,96 @@
-# Pacific Movement - Estúdio Fotográfico
+# Pacific Movement 📸
 
-## 📸 Sobre o Projeto
+> Fotografia profissional que captura emoções e momentos únicos
 
-Site profissional completo para a **Pacific Movement**, um estúdio fotográfico especializado em:
-- 👤 **Ensaios Individuais** - Sessões fotográficas personalizadas  
-- 🤱 **Ensaios Gestantes** - Momentos especiais da maternidade
-- 👔 **Ensaios Corporativos** - Fotografia profissional para executivos
-- ❤️ **Retratos de Emoção** - Capturing authentic moments and connections
+![Pacific Movement](./public/fotos/Captura%20de%20Tela%202025-08-17%20às%2015.14.26.png)
 
-## 🎨 Design e Identidade Visual
+## ✨ Sobre o Projeto
 
-O site foi desenvolvido baseando-se na identidade visual oficial da Pacific Movement vista no catálogo 2025, com:
-- **Cores primárias**: Bege (#e8e2d5) e Preto (#000000) - sofisticação e elegância
-- **Cores de destaque**: Dourado (#fbbf24) para elementos especiais e CTAs
-- **Tipografia**: Geist (fonte principal) - clean, moderna e minimalista
-- **Logo**: "pm" em tipografia elegante com seta dourada (↗) representando movimento
-- **Estilo**: Minimalista, clean e profissional como grandes estúdios fotográficos
+**Pacific Movement** é um estúdio de fotografia moderno especializado em ensaios únicos e personalizados. Nossa missão é transformar momentos especiais em arte através da fotografia profissional.
 
-## 🚀 Tecnologias Utilizadas
+## 🎯 Serviços
 
-- **Framework**: Next.js 15.4.6 (App Router)
-- **Linguagem**: TypeScript
-- **Estilização**: Tailwind CSS 4.0
-- **Componentes**: shadcn/ui + Radix UI
-- **Animações**: Framer Motion
-- **Ícones**: Lucide React
-- **Formulários**: React Hook Form + Zod
+- **📷 Ensaios Individuais** - Sessões personalizadas que destacam sua personalidade
+- **🤰 Ensaios Gestantes** - Celebrando momentos únicos da maternidade  
+- **👔 Fotografia Corporativa** - Imagem profissional para empresas e executivos
+- **💼 Eventos Corporativos** - Cobertura completa de eventos empresariais
+- **👨‍👩‍👧‍👦 Ensaios Familiares** - Momentos preciosos em família
 
-## 📁 Estrutura do Projeto
+## 💰 Pacotes
 
-```
-src/
-├── app/                    # App Router do Next.js
-│   ├── page.tsx           # Página inicial (Home)
-│   ├── social-media/      # Página Social Media
-│   ├── shootings/         # Página Shootings
-│   ├── eventos/           # Página Eventos
-│   ├── planos/           # Página Planos e Preços
-│   ├── contato/          # Página Contato
-│   ├── layout.tsx        # Layout principal
-│   └── globals.css       # Estilos globais
-├── components/
-│   ├── layout/           # Header e Footer
-│   └── ui/              # Componentes shadcn/ui
-└── lib/
-    └── utils.ts         # Utilitários (cn function)
-```
+| Pacote | Duração | Fotos | Preço |
+|--------|---------|-------|-------|
+| **Opção 1** | 30 min | 10 fotos editadas | R$ 649,00 |
+| **Opção 2** | 60 min | 15 fotos editadas | R$ 745,00 |
+| **Opção 3** | 90 min | 20 fotos editadas | R$ 940,00 |
 
-## 🎯 Funcionalidades
+*Parcelamento em até 6x sem juros*
 
-### Página Inicial (Home)
-- Hero section impactante
-- Seção de estatísticas (163 publicações, 3.240 seguidores, etc.)
-- Apresentação dos 3 serviços principais
-- Depoimentos de clientes
-- Call-to-action para conversão
+## 🚀 Tecnologias
 
-### Social Media (/social-media)
-- Planos detalhados (Essencial, Profissional, Premium)
-- Processo de trabalho em 5 etapas
-- Resultados comprovados (300% aumento engajamento)
-- Serviços inclusos em cada plano
+Este site foi desenvolvido com as mais modernas tecnologias:
 
-### Shootings (/shootings)
-- Portfolio por categorias (Produtos, Pessoas, Corporativo, Lifestyle)
-- Pacotes de fotografia (Essential, Professional, Premium)
-- Processo de trabalho estruturado
-- Depoimentos específicos de clientes
+- **Next.js 15** - Framework React de última geração
+- **TypeScript** - Tipagem estática para maior robustez
+- **Tailwind CSS** - Design system responsivo e moderno
+- **Framer Motion** - Animações fluidas e elegantes
+- **Vercel** - Deploy otimizado e performático
 
-### Eventos (/eventos)
-- Tipos de eventos (Corporativos, Sociais, Lançamentos, Digitais)
-- Cases de sucesso detalhados
-- Pacotes por porte do evento (até 50, 200, 500 pessoas)
-- Estatísticas de satisfação
+### 🎨 Design Features
 
-### Planos (/planos)
-- Seletor interativo de serviços
-- Comparação detalhada de planos
-- Serviços adicionais (add-ons)
-- FAQ sobre contratação
-- Garantia de satisfação
+- ✅ **Header Transparente** com efeito de scroll
+- ✅ **Hero Sections** em tela cheia com imagens de fundo
+- ✅ **Tipografia Premium** (Poppins + Playfair Display)
+- ✅ **Animações Suaves** em todos os elementos
+- ✅ **Layout Responsivo** para todos os dispositivos
+- ✅ **SEO Otimizado** com meta tags personalizadas
 
-### Contato (/contato)
-- Formulário completo de solicitação
-- Informações de contato (telefone, email, WhatsApp, Instagram)
-- FAQ sobre atendimento
-- Mapa de localização (placeholder)
+## 📍 Localização
 
-## 🎨 Sistema de Cores Personalizado
+**Endereço:** Av. C, 236A - Conjunto Ceará, Fortaleza - CE  
+**CEP:** 60533-500
 
-```css
-/* Cores da Pacific Movement */
---pacific-blue: 262 83% 58%;        /* Azul principal */
---pacific-purple: 271 76% 53%;      /* Roxo secundário */
---pacific-gold-start: 45 100% 51%;  /* Dourado início */
---pacific-gold-end: 39 100% 57%;    /* Dourado fim */
---pacific-dark: 240 10% 3.9%;       /* Preto */
---pacific-light: 0 0% 98%;          /* Branco */
+## 📞 Contato
 
-/* Classes utilitárias */
-.gradient-text         /* Texto com gradiente dourado */
-.gradient-bg           /* Background com gradiente azul/roxo */
-.gradient-border       /* Borda com gradiente dourado */
-```
+- **WhatsApp:** [(85) 9273-3553](https://wa.me/558592733553)
+- **Email:** agenciapacificmoviment@gmail.com
+- **Instagram:** [@pacificmoviment](https://www.instagram.com/pacificmoviment)
 
-## 📱 Responsividade
+## 📊 Estatísticas
 
-O site é 100% responsivo com breakpoints:
-- **Mobile**: < 768px
-- **Tablet**: 768px - 1024px  
-- **Desktop**: > 1024px
+- ✅ **500+** Ensaios Realizados
+- ✅ **2000+** Fotos Editadas  
+- ✅ **98%** Taxa de Satisfação
+- ✅ **24h** Prazo de Seleção
 
-Todas as seções se adaptam perfeitamente a diferentes tamanhos de tela.
-
-## ⚡ Performance
-
-- **Build otimizado**: Todas as páginas são geradas estaticamente
-- **Imagens otimizadas**: Uso do componente Image do Next.js
-- **Code splitting**: Carregamento otimizado por página
-- **CSS otimizado**: Tailwind CSS com purge automático
-
-## 🔧 Comandos de Desenvolvimento
+## 🛠️ Como executar
 
 ```bash
-# Instalar dependências
+# Clone o repositório
+git clone https://github.com/SteveHerison/Pacific.git
+
+# Entre no diretório
+cd pacific-movement
+
+# Instale as dependências
 npm install
 
-# Executar em modo desenvolvimento
+# Execute o projeto
 npm run dev
-
-# Build para produção
-npm run build
-
-# Executar build em produção
-npm run start
-
-# Lint do código
-npm run lint
 ```
 
-## 📋 SEO e Metadata
+Acesse [http://localhost:3000](http://localhost:3000) para ver o resultado.
 
-Cada página possui metadata otimizada incluindo:
-- Title e description únicos
-- Open Graph tags (Facebook, LinkedIn)
-- Twitter Cards
-- Keywords relevantes
-- Structured data (futuro)
+## 📄 Licença
 
-## 🔮 Próximos Passos Sugeridos
-
-### Melhorias Técnicas
-1. **Analytics**: Integrar Google Analytics/Google Tag Manager
-2. **Forms**: Conectar formulários com backend (Emailjs, Formspree, etc.)
-3. **CMS**: Implementar Sanity ou Strapi para conteúdo dinâmico
-4. **Blog**: Adicionar seção de blog/cases
-5. **PWA**: Transformar em Progressive Web App
-
-### Funcionalidades Extras
-1. **Chat online**: Widget de chat ou WhatsApp
-2. **Portal do cliente**: Área logada para acompanhar projetos
-3. **Calculadora**: Ferramenta para estimar orçamentos
-4. **Agenda**: Sistema de agendamento online
-5. **Galeria**: Portfolio interativo com filtros
-
-### Integrações
-1. **Instagram API**: Exibir posts reais do Instagram
-2. **Google Maps**: Mapa interativo real
-3. **Calendly**: Agendamento de reuniões
-4. **Stripe**: Pagamentos online
-5. **CRM**: Integração com ferramentas de gestão
-
-## 🎯 Conversão e Marketing
-
-### Elementos de Conversão Implementados
-- **CTAs estratégicos**: Botões de ação em todas as páginas
-- **Prova social**: Depoimentos e estatísticas reais
-- **Senso de urgência**: Frases como "Não perca tempo"
-- **Transparência**: Preços visíveis e sem taxas ocultas
-- **Contato fácil**: Múltiplos canais de comunicação
-
-### Métricas Sugeridas
-- **Taxa de conversão**: Formulários preenchidos / Visitantes
-- **Tempo na página**: Engajamento por seção
-- **Origem do tráfego**: Instagram, Google, direto
-- **Páginas mais visitadas**: Otimizar conteúdo popular
-
-## 🛡️ Segurança e Manutenção
-
-- **Atualizações**: Manter dependências atualizadas
-- **Backup**: Código no Git, deploy com Vercel/Netlify
-- **Monitoramento**: Uptime e performance
-- **SSL**: Certificado HTTPS obrigatório
-
-## 📞 Suporte e Documentação
-
-Este projeto foi desenvolvido seguindo as melhores práticas de desenvolvimento web moderno. Para dúvidas sobre implementação ou melhorias, consulte:
-
-1. **Documentação Next.js**: [nextjs.org/docs](https://nextjs.org/docs)
-2. **Tailwind CSS**: [tailwindcss.com/docs](https://tailwindcss.com/docs)  
-3. **shadcn/ui**: [ui.shadcn.com](https://ui.shadcn.com)
-4. **Framer Motion**: [framer.com/motion](https://www.framer.com/motion/)
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
-**Desenvolvido com ❤️ para Pacific Movement**  
-*Agência de marketing sempre em movimento* 🚀
-# Pacific
-# Pacific
+<div align="center">
+  
+**🤖 Desenvolvido com [Claude Code](https://claude.ai/code)**
+
+*Transformando momentos em memórias eternas* ✨
+
+</div>
