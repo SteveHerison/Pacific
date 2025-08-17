@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   description: "Estúdio de fotografia especializado em ensaios individuais, gestantes, corporativo e retratos de emoção. Pacotes a partir de R$ 649,00",
   keywords: ["fotografia", "ensaio fotográfico", "gestantes", "corporativo", "retratos", "estúdio fotográfico"],
   authors: [{ name: "Pacific Movement" }],
+  metadataBase: new URL('https://pacific-cyan.vercel.app'),
   icons: {
     icon: "/fotos/Símbolo Bege (sem fundo).png",
     apple: "/fotos/Símbolo Bege (sem fundo).png",
