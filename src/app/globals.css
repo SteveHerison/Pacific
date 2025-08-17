@@ -1,26 +1,133 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 0%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 0%;
+    --primary: 0 0% 0%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 25 24% 82%;
+    --secondary-foreground: 0 0% 0%;
+    --muted: 25 24% 82%;
+    --muted-foreground: 0 0% 40%;
+    --accent: 25 24% 82%;
+    --accent-foreground: 0 0% 0%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 25 24% 82%;
+    --input: 25 24% 82%;
+    --ring: 0 0% 0%;
+    --radius: 0.5rem;
+    
+    /* Pacific Movement Brand Colors */
+    --pm-black: 0 0% 0%;
+    --pm-white: 0 0% 100%;
+    --pm-beige: 25 24% 82%; /* #dfd0bb */
+    --pm-beige-dark: 25 20% 72%;
+    --pm-gold: 38 100% 50%;
+    --pm-gold-light: 38 100% 60%;
+    --pm-text-dark: 0 0% 20%;
+    --pm-text-light: 0 0% 60%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 262 83% 58%;
+    --primary-foreground: 222.2 84% 4.9%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 262 83% 58%;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: var(--font-poppins), system-ui, sans-serif;
+  }
+}
+
+@theme inline {
+  --font-sans: var(--font-poppins);
+  --font-serif: var(--font-playfair);
+}
+
+/* Pacific Movement Brand Styles */
+.pm-text-gold {
+  color: hsl(var(--pm-gold));
+}
+
+.pm-bg-beige {
+  background-color: hsl(var(--pm-beige));
+}
+
+.pm-bg-black {
+  background-color: hsl(var(--pm-black));
+}
+
+.pm-text-elegant {
+  font-family: var(--font-serif), Georgia, serif;
+  letter-spacing: 0.005em;
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+.pm-hero-text {
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: clamp(3rem, 8vw, 8rem);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 0.85;
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+.pm-section-title {
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+.pm-gradient-overlay {
+  background: linear-gradient(135deg, rgba(0,0,0,0.4), rgba(0,0,0,0.1));
+}
+
+.pm-elegant-border {
+  border: 1px solid hsl(var(--pm-beige-dark));
+}
+
+.pm-image-overlay {
+  position: relative;
+}
+
+.pm-image-overlay::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(0,0,0,0.3), transparent);
+  pointer-events: none;
 }
